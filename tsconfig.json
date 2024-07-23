@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "module": "nodenext",
+        "declaration": true,
+        "removeComments": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "target": "es2022",
+        "sourceMap": true,
+        "outDir": "./dist",
+        "baseUrl": "./",
+        "incremental": true,
+        "skipLibCheck": true,
+        "importHelpers": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+
+        /* Linting */
+        "strict": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": false,
+    },
+    "exclude": ["*.test.ts", "*.spec.ts", "node_modules", "dist"],
+}
