@@ -2,9 +2,10 @@
 
 On Mikro 6.3.0
 
-1. npm i
-2. run the npm "start" command
-3. Error thrown:
+1. rename envfile to .env
+2. npm i
+3. run the npm "start" command
+4. Error thrown:
 
 ```
 [info] MikroORM version: 6.3.0
